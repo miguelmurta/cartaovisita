@@ -1,0 +1,54 @@
+/* estilos.css */
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    margin: right 4px;
+    }
+
+h1 {
+    color:rgb(240, 13, 13);
+    
+    }
+
+    .retangulo {
+        width: 800px; /* Largura do retângulo */
+        height: 400px; /* Altura do retângulo */
+        background-color: rgb(255, 255, 255); /* Cor de fundo do retângulo */
+        padding: 20px; /* Espaçamento interno dentro do retângulo */
+        display: flex; /* Use flexbox */
+        align-items: right; /* Centralize horizontalmente */
+        justify-content: right; /* Centralize verticalmente */
+    }
+    
+    .retangulo img {
+        max-width: 100%; /* Garante que a imagem não ultrapasse a largura do retângulo */
+        max-height: 100%; /* Garante que a imagem não ultrapasse a altura do retângulo */
+        margin-right: 10px; /* Espaçamento à direita da imagem */
+    }
+    
+    .conteudo {
+        display: left; /* Use flexbox para organizar o conteúdo interno */
+        flex-direction: left; /* Organize os itens em coluna */
+        justify-content: center; /* Distribui o espaço entre os itens verticalmente */
+        flex-grow:1; /* Ocupa o restante do espaço disponível */
+        text-align: left; /* Alinhe o texto à direita */
+        align-items: center; /* Alinhe os itens verticalmente */
+        height: 200px; /* Altura do contêiner */
+    }
+    
+    .conteudo h2 {
+        margin-top: 0; /* Remove a margem superior padrão do título */
+        margin-bottom: 5px; /* Adiciona um pequeno espaço abaixo do título */
+    }
+
+    .conteudo p {
+        margin: 0; /* Remova todas as margens */
+        padding: 0; /* Remova todo o preenchimento */
+    }
+    
+    
+    
